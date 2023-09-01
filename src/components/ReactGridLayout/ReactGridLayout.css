@@ -1,0 +1,27 @@
+.grid-container {
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+}
+
+.grid {
+  display: grid;
+  gap: 10px;
+  padding: 20px;
+}
+
+.grid-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1e91ff;
+  border: 1px solid #ccc;
+  height: 200px;
+  font-size: 18px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.grid-box.visible {
+  opacity: 1;
+}
