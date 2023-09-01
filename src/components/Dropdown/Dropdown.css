@@ -63,3 +63,17 @@ button {
   cursor: pointer;
   border-radius: 4px;
 }
+
+@media (max-width: 768px) {
+  .dropdown {
+    width: 100%;
+  }
+
+  .dropdown-content {
+    max-height: 50vh;
+  }
+
+  .dropdown-option {
+    font-size: 14px;
+  }
+}

@@ -25,3 +25,15 @@
 .grid-box.visible {
   opacity: 1;
 }
+
+@media (max-width: 768px) {
+  .grid {
+    padding: 10px;
+    gap: 5px;
+  }
+
+  .grid-box {
+    height: 150px;
+    font-size: 16px;
+  }
+}
