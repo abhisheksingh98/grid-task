@@ -17,7 +17,6 @@ const ReactGridLayout: React.FC<ReactGridLayoutProps> = ({
     const handleScroll = () => {
       const windowHeight = window.innerHeight;
       const totalRows = Math.ceil(numBoxes / columns);
-      const totalHeight = totalRows * boxSize;
 
       const currentScrollPos = window.scrollY;
       const startRow = Math.floor(currentScrollPos / boxSize);

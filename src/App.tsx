@@ -1,4 +1,3 @@
-import React from "react";
 import "./App.css";
 import ReactGridLayout from "./components/ReactGridLayout/ReactGridLayout";
 import Dropdown from "./components/Dropdown/Dropdown";
